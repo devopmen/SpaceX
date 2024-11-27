@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fira Code;
+ 
+ }
+ 
+ body {
+   height: 900px;
+    margin: 0;
+    padding: 0;
+    background-color: #bd9e9e;
+ }
+ 
+ #container{
+    padding-top: 10px;
+    float: left;
+    width: 90%;
+    min-height: 600px;
+ 
+ }
+ 
+ header {
+    background-color: #d14242;
+    color: #fff;
+    padding: 10px;
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+    margin-left: 10px;
+     
+ }
+ header h1{
+    text-align: center;
+    float: right;
+ }
+ 
+ header img{
+    float: right;
+    width: 250;
+    height: 130px;
+ 
+    text-align: right;
+    padding-left: 25px;
+    padding-bottom: 5px;
+ }
+ nav {
+    background-color: #7c1313;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    
+ }
+ nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ nav a:hover {
+    color: #917777;
+ }
+ section {
+    padding: 20px;
+    text-align: center;
+ }
+ .card {
+    z-index: 1;
+    background-color: #ca5353;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    max-width: 900px;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+ }
+ 
+ .card p{
+    text-align: justify;
+    line-height: 1.5;
+ }
+ 
+ .card img {
+ 
+    float: left;
+    
+    border-radius: 8px;
+    height: 250px;
+    width: 180px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+ }
+ .card a{
+    float: right;
+    text-decoration: none;
+    color: #f1cbcb;
+ }
+ 
+ 
+ footer {
+    background-color: #500707;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-left: 10px;
+ }
